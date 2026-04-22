@@ -1,0 +1,11 @@
+model:
+  algorithm: 'xgboost'
+  params:
+    n_estimators: 200
+    learning_rate: 0.05
+    max_depth: 5
+    subsample: 0.8
+data:
+  raw_path: 'data/raw/sports_data.csv'
+  processed_path: 'data/processed/sports_data_clean.csv'
+  model_save_path: 'models/latest_model.pkl'
